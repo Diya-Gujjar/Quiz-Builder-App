@@ -2,37 +2,116 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
+.container {
+  border: solid slategrey 1px;
+  border-radius: 4px;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(244, 243, 243);
+  margin-bottom: 20px;
+}
+
+.inputlbl {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 63px;
+  text-align: left;
+}
+
+input,
+select {
+  margin: 5px 0;
+}
+
+.form-error {
+  font-size: 11px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: red;
+}
+
+button {
+  margin: 5px;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.lnk {
+  margin: 5px 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: rgb(152, 151, 151);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clk-lnk {
+  text-decoration: underline;
+}
+
+.question-heading {
+  color: rgb(118, 116, 116);
+}
+
+.question-container {
+  max-width: 40%;
+  background-color: rgb(152, 151, 151);
+  color: azure;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.question-timer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.option {
+  display: block;
+}
+
+.nxt-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topic-input {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1pz solid rgb(148, 148, 148);
+  border-radius: 4px;
+}
+
+.score-container {
+  margin: auto;
+  border: solid slategrey 1px;
+  border-radius: 4px;
+  width: 30%;
+  background-color: rgb(244, 243, 243);
 }
